@@ -1,0 +1,8 @@
+.project
+*.DS_Store
+*.idea
+node_modules
+npm-debug.log
+selenium-debug.log
+bin/chromedriver
+bin/selenium-server-standalone-*

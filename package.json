@@ -1,0 +1,24 @@
+{
+  "name": "nightwatch",
+  "description": "Sample project for WebRTC testing",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrei Rusu",
+    "email": "andrei@nightwatchjs.org"
+  },
+  "homepage": "http://nightwatchjs.org",
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/beatfactor/nightwatch/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:beatfactor/nightwatch.git"
+  },
+  "dependencies": {
+    "nightwatch": "~0.5.35"
+  },
+  "man": "",
+  "scripts": {
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "src_folders" : ["./tests"],
+  "output_folder" : "./reports",
+  "custom_commands_path" : "./lib/custom-commands",
+  "live_output" : true,
+  "parallel_process_delay" : 3500,
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "./bin/selenium-server-standalone-2.43.1.jar",
+    "log_path" : "",
+    "cli_args" : {
+      "webdriver.chrome.driver" : "bin/chromedriver",
+      "webdriver.firefox.profile" : "default"
+    }
+  },
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "https://talky.io/nightwatch",
+      "silent" : true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : "./screenshots"
+      },
+      "globals" : {
+
+      }
+    },
+
+    "firefox" : {
+      "desiredCapabilities" : {
+        "browserName" : "firefox",
+        "javascriptEnabled" : true
+      }
+    },
+
+    "chrome" : {
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "chromeOptions" : {
+          "args" : ["use-fake-device-for-media-stream", "use-fake-ui-for-media-stream"]
+        }
+      }
+    }
+  }
+}
+
+
