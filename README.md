@@ -10,7 +10,7 @@ Demo test project for [Testing WebRTC apps with Nightwatch](http://nightwatchjs.
 
 1) Install [Node.js](http://nodejs.org) if not present and clone the repo:
 ```sh
-$ git clone git@github.com:beatfactor/nightwatch-webrtcdemo.git
+$ git clone https://github.com/beatfactor/nightwatch-webrtcdemo.git
 $ cd nightwatch-webrtcdemo
 $ npm install
 ```
