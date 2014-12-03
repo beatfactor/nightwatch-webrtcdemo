@@ -6,7 +6,7 @@ Demo test project for [Testing WebRTC apps with Nightwatch](http://nightwatchjs.
 
 #### [Homepage](http://nightwatchjs.org) | [Developer Guide](http://nightwatchjs.org/guide) | [API Reference](http://nightwatchjs.org/api)
 
-### Run test
+### Running the test
 
 1) Install [Node.js](http://nodejs.org) if not present and clone the repo:
 ```sh
