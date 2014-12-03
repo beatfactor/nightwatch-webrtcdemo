@@ -15,9 +15,9 @@ $ cd nightwatch-webrtcdemo
 $ npm install
 ```
 
-2) Download the `selenium-server-standalone-2.43.1.jar` or newer from (http://selenium-release.storage.googleapis.com/index.html) and place it in your `bin` folder - remember to update `nightwatch.json` if you download a newer version.
+2) Download the `selenium-server-standalone-2.43.1.jar` or newer from http://selenium-release.storage.googleapis.com/index.html and place it in your `bin` folder - remember to update `nightwatch.json` if you download a newer version.
 
-3) Download the `chromedriver` from (http://chromedriver.storage.googleapis.com/index.html) and place it in your `bin` folder
+3) Download the `chromedriver` from http://chromedriver.storage.googleapis.com/index.html and place it in your `bin` folder
 
 4) To run the test with 2 chrome peers
 ```sh
